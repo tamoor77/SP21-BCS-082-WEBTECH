@@ -1,0 +1,60 @@
+img{
+    border-radius: 50%;
+    max-width: 250px;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white ;
+}
+.container{
+    width: 90%;
+    display: grid;
+    background-color: black;
+    color: white;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 5rem;
+
+}
+#profile{
+    grid-column: 1 / -1;
+}
+#profile_container{
+    display: flex;
+    gap: 2rem;
+}
+#first{
+    font-weight: 200;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(2rem , 8vm , 4rem);
+    display: block;
+    text-transform: uppercase;
+}
+#last{
+    color: brown;
+    font-size: larger;
+}
+#description{
+    text-transform: uppercase;
+    color: brown;
+}
+
+#uni, #year ,#referer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px ;
+    color:gray;
+    
+}
+.color1{
+    color: brown;
+}
+#interest1 , #social{
+    display: flex;
+   
+    margin-top: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
